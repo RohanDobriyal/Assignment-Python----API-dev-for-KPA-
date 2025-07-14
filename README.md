@@ -1,5 +1,3 @@
-
-```markdown
 # 🧩 Assignment: Python API Development for KPA
 
 This repository contains a simple and robust REST API built using **Python** for the **KPA (Key Performance Appraisal)** system. The API is containerized with Docker, and designed for easy testing, deployment, and future extension.
