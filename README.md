@@ -1,10 +1,10 @@
-# 🧩 Assignment: Python API Development for KPA
+# Assignment: Python API Development for KPA
 
 This repository contains a simple and robust REST API built using **Python** for the **KPA (Key Performance Appraisal)** system. The API is containerized with Docker, and designed for easy testing, deployment, and future extension.
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 
@@ -25,7 +25,7 @@ This repository contains a simple and robust REST API built using **Python** for
 
 ---
 
-## ⚙️ Tech Stack
+##  Tech Stack
 
 - **Backend**: Python (FastAPI / Flask)
 - **Database**: PostgreSQL
@@ -34,7 +34,7 @@ This repository contains a simple and robust REST API built using **Python** for
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### 1. Clone the Repository
 
@@ -56,7 +56,7 @@ uvicorn app.main:app --reload   # If using FastAPI
 
 ---
 
-## 🐳 Running with Docker
+##  Running with Docker
 
 ### Build & Run
 
@@ -72,7 +72,7 @@ docker-compose down
 
 ---
 
-## 🔌 Sample Endpoints (Example for FastAPI)
+##  Sample Endpoints (Example for FastAPI)
 
 * `POST /api/signup` – User registration
 * `POST /api/login` – Login using phone number and password
@@ -84,7 +84,7 @@ docker-compose down
 
 ---
 
-## 📄 Dockerfile
+##  Dockerfile
 
 ```dockerfile
 FROM python:3.10-slim
@@ -100,7 +100,7 @@ CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000"]
 
 ---
 
-## 🐳 docker-compose.yml
+##  docker-compose.yml
 
 ```yaml
 version: '3.8'
@@ -126,7 +126,7 @@ services:
 
 ---
 
-## ✅ Features Implemented
+##  Features Implemented
 
 * [x] Signup & Login (with validation)
 * [x] KPA Form submission & retrieval
@@ -136,7 +136,7 @@ services:
 
 ---
 
-## 🙋 Author
+##  Author
 
 * [Rohan Dobriyal](https://github.com/RohanDobriyal)
 
